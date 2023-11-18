@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Smart Cat Door Application. Here are some basic Guidlines for how the mobile app works.
+The live button from the home page Will take you to a live video feed where you can get live updates from the camera. You have the choice to press a button that can manually open the door just in case the cat was not authenticated by the algorithm. The upload button should take you to a page where the face features of the cat will be recorded for the first time. The door button is responsible for allowing you to manually open the door."
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Setting portion is responsible for seeing the settings of the application. The guide section is a guide of how the application works which you are currently on. The team button takes you to a page that displays the name of the team that brought you Smart Cat Doors. Enjoy!  "
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</ScrollView>
