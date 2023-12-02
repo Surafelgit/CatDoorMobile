@@ -25,7 +25,8 @@ public class LiveActivity extends AppCompatActivity {
         }
 
         public void OpenDoor(){// arduino code to open the door implemented here. call the api endpoint maybe.
-            System.out.println("Open the Door");
+            webView.getSettings().setJavaScriptEnabled(true);
+
         }
 
 }
