@@ -18,7 +18,7 @@ Before running the system, ensure that these critereas are met:
 
    ```bash
    git clone https://github.com/yourusername/CatDoorMobilegit
-   ```bash
+
 
 3. **Installation of any packages is not neccessary since everything is configured in the AndroidManifest.xml and build.gradle files**
 4. **Choose an android mobile emulator from Android Studio tools and run the application to get to the homepage**
